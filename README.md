@@ -9,3 +9,5 @@
 3. Теперь можно зайти по адресу https://ominous-doodle-9x7ww795x7ghp7gg-8080.app.github.dev
 
 ### Практическая Github actions
+
+Для того, чтобы авторизация в GitHub Container Registry в blank.yml (взято в https://github.com/docker/login-action?tab=readme-ov-file#github-container-registry) работала, нужно было выдать права в Settings/Actions/General в разделе Workflow permissions
